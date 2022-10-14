@@ -3,7 +3,7 @@ const browserSync = require('browser-sync');
 const sass = require('gulp-sass')(require('sass'));
 
 // Static server
-gulp.task('browser-sync', function() {
+gulp.task('server', function() {
     browserSync.init({
         server: {
             baseDir: "src"
